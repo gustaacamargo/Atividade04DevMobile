@@ -23,7 +23,8 @@ class Lagertha : AppCompatActivity() {
         chegada_lagertha.text = this.info_lagertha
 
         val cheg_lagertha = intent.extras?.getString("nome_chegada")
-        chegada_lagertha.text = "VOCÊ CHEGOU AQUI ATRAVÉS DE ${cheg_lagertha}"
+        val textoChegouAtravesDe: String = getString(R.string.texto_chegou_atraves)
+        chegada_lagertha.text = "${textoChegouAtravesDe} ${cheg_lagertha}"
 
         bjorn_bt.setOnClickListener{
             val bundle = Bundle()

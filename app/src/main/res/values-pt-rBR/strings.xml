@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aula 4</string>
+    <string name="descricaoAthelstan">Athelstan é um personagem principal da primeira, segunda e terceira temporada. Ele é interpretado por George Blagden e apareceu pela primeira vez em Wrath of the Northmen. Ele reaparece em visões durante a quarta temporada.</string>
+    <string name="descricaoBjorn">Biorno Braço de Ferro foi um lendário caudilho viquingue, de origem dinamarquesa, que teria vivido no século IX. Segundo a lenda, a alcunha Järnsida foi-lhe atribuída por ele ser invulnerável, depois de a mãe lhe ter dado uma poção mágica.</string>
+    <string name="descricaoFloki">Floki é um personagem principal da primeira, segunda, terceira e quarta temporada. Ele é interpretado por Gustaf Skarsgård e apareceu pela primeira vez em Rites of Passage.</string>
+    <string name="descricaoLagetha">Lagertha foi, de acordo com as lendas locais, uma skjaldmö viquingue que viveu no território da atual Noruega, tendo sido a primeira esposa do célebre guerreiro viquingue Ragnar Lodbrok.</string>
+    <string name="descricaoRollo">Rolão, Rollo ou Rolfo, melhor conhecido com Rolão, o Caminhante e Rolão, o Andarilho e às vezes Rolão, filho de Ragnualdo, foi um líder viquingue, fundador e primeiro governante do Ducado da Normandia no período de 911 a 927.</string>
+    <string name="name_main_screen">Tela principal</string>
+    <string name="texto_chegou_atraves">"Você chegou através de "</string>
+    <string name="descricaoRagnar">Ragnar Lodbrok ou Ragnar Calças Peludas foi um rei lendário da Dinamarca e da Suécia, que teria reinado durante os séculos VIII e IX.</string>
+</resources>

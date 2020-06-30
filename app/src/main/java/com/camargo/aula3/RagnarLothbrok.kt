@@ -21,7 +21,8 @@ class RagnarLothbrok : AppCompatActivity() {
         tv_chegada.text = this.info
 
         val nome_chegada = intent.extras?.getString("nome_chegada")
-        tv_chegada.text = "VOCÊ CHEGOU AQUI ATRAVÉS DE ${nome_chegada}"
+        val textoChegouAtravesDe: String = getString(R.string.texto_chegou_atraves)
+        tv_chegada.text = "${textoChegouAtravesDe} ${nome_chegada}"
 
         lagerta_bt.setOnClickListener {
             val bundle = Bundle()

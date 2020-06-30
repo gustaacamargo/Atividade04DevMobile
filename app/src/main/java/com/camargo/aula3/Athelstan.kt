@@ -24,7 +24,8 @@ class Athelstan : AppCompatActivity() {
         chegada_athelstan.text = this.info_athelstan
 
         val cheg_athelstan = intent.extras?.getString("nome_chegada")
-        chegada_athelstan.text = "VOCÊ CHEGOU ATRAVÉS DE ${cheg_athelstan}"
+        val textoChegouAtravesDe: String = getString(R.string.texto_chegou_atraves)
+        chegada_athelstan.text = "${textoChegouAtravesDe} ${cheg_athelstan}"
 
         ragnar_bt.setOnClickListener{
             val bundle = Bundle()

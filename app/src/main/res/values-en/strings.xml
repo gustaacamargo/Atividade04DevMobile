@@ -1,18 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Class 4</string>
-    <string name="descricaoAthelstan">Athelstan é um personagem principal da primeira, segunda e terceira temporada. Ele é interpretado por George Blagden e apareceu pela primeira vez em Wrath of the Northmen. Ele reaparece em visões durante a quarta temporada.</string>
-    <string name="ragnar_name" translatable="false">Ragnar</string>
-    <string name="athelstan_name" translatable="false">Athelstan</string>
-    <string name="bjorn_name" translatable="false">Bjorn</string>
-    <string name="todo" translatable="false">TODO</string>
-    <string name="bjorn_fullname" translatable="false">Bjorn Ironside</string>
+    <string name="descricaoAthelstan">Athelstan is a main character in the first, second and third season. He is played by George Blagden and first appeared in Wrath of the Northmen. He reappears in visions during the fourth season.</string>
     <string name="descricaoBjorn">Bjørn Jernside was a legendary viking warlord, of Danish origin, who would have lived in the 9th century. According to legend, the nickname Järnsida was given to him because he was invulnerable after his mother gave him a magic potion.</string>
-    <string name="lagertha_name" translatable="false">Lagertha</string>
-    <string name="floki_name" translatable="false">Floki</string>
     <string name="descricaoFloki">Floki is a main character in the first, second, third and fourth season. He is played by Gustaf Skarsgård and first appeared in Rites of Passage.</string>
     <string name="descricaoLagetha">Lagertha was, according to local legends, a Viking skjaldmö who lived in the territory of present-day Norway, having been the first wife of the famous Viking warrior Ragnar Lodbrok.</string>
-    <string name="ragnar_fullname" translatable="false">Ragnar Lothbrok</string>
-    <string name="rollo_name" translatable="false">Rollo</string>
     <string name="descricaoRollo">Rollo, son of Ragnualdo, was a Viking leader, founder and first ruler of the Duchy of Normandy from 911 to 927.</string>
     <string name="name_main_screen">Main screen</string>
     <string name="texto_chegou_atraves">You arrived through</string>

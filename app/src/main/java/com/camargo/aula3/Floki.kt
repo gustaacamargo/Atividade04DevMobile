@@ -23,7 +23,8 @@ class Floki : AppCompatActivity() {
         chegada_floki.text = this.info_floki
 
         val cheg_floki = intent.extras?.getString("nome_chegada")
-        chegada_floki.text = "VOCÊ CHEGOU AQUI ATRAVÉS DE ${cheg_floki}"
+        val textoChegouAtravesDe: String = getString(R.string.texto_chegou_atraves)
+        chegada_floki.text = "${textoChegouAtravesDe} ${cheg_floki}"
 
         ragnar_bt.setOnClickListener{
             val bundle = Bundle()

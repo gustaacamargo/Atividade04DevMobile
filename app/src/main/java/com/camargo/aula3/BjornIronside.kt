@@ -23,7 +23,8 @@ class BjornIronside : AppCompatActivity() {
         chegada_bjorn.text = this.info_bjorn
 
         val cheg_bjorn = intent.extras?.getString("nome_chegada")
-        chegada_bjorn.text = "VOCÊ CHEGOU AQUI ATRAVÉS DE ${cheg_bjorn}"
+        val textoChegouAtravesDe: String = getString(R.string.texto_chegou_atraves)
+        chegada_bjorn.text = "${textoChegouAtravesDe} ${cheg_bjorn}"
 
         ragnar_bt.setOnClickListener{
             val bundle = Bundle()

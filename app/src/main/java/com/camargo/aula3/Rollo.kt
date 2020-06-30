@@ -23,7 +23,8 @@ class Rollo : AppCompatActivity() {
         chegada_rollo.text = this.info_rollo
 
         val cheg_rollo = intent.extras?.getString("nome_chegada")
-        chegada_rollo.text = "VOCÊ CHEGOU AQUI ATRAVÉS DE ${cheg_rollo}"
+        val textoChegouAtravesDe: String = getString(R.string.texto_chegou_atraves)
+        chegada_rollo.text = "${textoChegouAtravesDe} ${cheg_rollo}"
 
         bjorn_bt.setOnClickListener {
             val bundle = Bundle()

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clase 4</string>
+    <string name="descricaoRollo">Rollo, hijo de Ragnualdo, fue un líder vikingo, fundador y primer gobernante del Ducado de Normandía desde 911 hasta 927.</string>
+    <string name="descricaoLagetha">Lagertha era, según las leyendas locales, un vikingo skjaldmö que vivía en el territorio de la actual Noruega, después de haber sido la primera esposa del famoso guerrero vikingo Ragnar Lodbrok.</string>
+    <string name="descricaoFloki">Floki es un personaje principal en la primera, segunda, tercera y cuarta temporada. Gustaf Skarsgård lo interpreta y apareció por primera vez en Rites of Passage.</string>
+    <string name="descricaoBjorn">Bjørn Jernside fue un legendario señor de la guerra vikingo, de origen danés, que habría vivido en el siglo IX. Según la leyenda, el apodo Järnsida se le dio porque era invulnerable después de que su madre le dio una poción mágica.</string>
+    <string name="descricaoAthelstan">Athelstan es un personaje principal en la primera, segunda y tercera temporada. George Blagden lo interpreta y apareció por primera vez en Wrath of the Northmen. Reaparece en visiones durante la cuarta temporada.</string>
+    <string name="name_main_screen">Pantalla principal</string>
+    <string name="texto_chegou_atraves">Llegaste a través de</string>
+    <string name="descricaoRagnar">Ragnar Lodbrok o Ragnar Hairy Pants fue un legendario rey de Dinamarca y Suecia, que habría reinado durante los siglos VIII y IX.</string>
+</resources>
