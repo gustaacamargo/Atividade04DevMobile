@@ -66,41 +66,43 @@
         android:id="@+id/lagertha_bt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
         android:text="@string/lagertha_name"
         app:layout_constraintEnd_toStartOf="@+id/floki_bt"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chegada_bjorn" />
 
     <Button
         android:id="@+id/ragnar_bt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:text="@string/ragnar_name"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/athelstan_bt"
         app:layout_constraintTop_toBottomOf="@+id/chegada_bjorn" />
 
     <Button
         android:id="@+id/floki_bt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
         android:layout_marginTop="4dp"
         android:text="@string/floki_name"
+        app:layout_constraintEnd_toStartOf="@+id/athelstan_bt"
         app:layout_constraintStart_toEndOf="@+id/lagertha_bt"
         app:layout_constraintTop_toBottomOf="@+id/chegada_bjorn" />
 
     <Button
         android:id="@+id/athelstan_bt"
-        android:layout_width="105dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="14dp"
-        android:layout_marginRight="14dp"
+        android:layout_marginTop="4dp"
         android:text="@string/athelstan_name"
         app:layout_constraintEnd_toStartOf="@+id/ragnar_bt"
+        app:layout_constraintStart_toEndOf="@+id/floki_bt"
         app:layout_constraintTop_toBottomOf="@+id/chegada_bjorn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
